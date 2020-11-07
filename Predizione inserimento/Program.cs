@@ -49,6 +49,8 @@ namespace Predizione_inserimento
                     
                 }
             } while (esci == false);
+            Console.WriteLine("Premi un tasto per chiudere il programma...");
+            Console.ReadKey();
         }
     }
 }
